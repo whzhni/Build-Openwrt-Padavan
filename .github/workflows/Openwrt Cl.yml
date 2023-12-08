@@ -142,7 +142,7 @@ jobs:
 
     - name: Add LuBan suport
       run: |
-        mv $GITHUB_WORKSPACE/coolsnowwolf-lede-luban.patch openwrt
+        mv patchs/coolsnowwolf-lede-luban.patch openwrt
         cd openwrt
         git apply coolsnowwolf-lede-luban.patch
         
