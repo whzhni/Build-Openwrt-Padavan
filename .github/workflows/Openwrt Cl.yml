@@ -39,12 +39,12 @@ on:
       model:
         description: '选择机型'
         required: true
-        default: 'JDCloud AX6000' 
+        default: 'JDCloud_AX6000' 
         type: choice
         options:
           - 'JDCloud luban'
-          - 'JDCloud AX1800 Pro'
-          - 'JDCloud AX6000'
+          - 'JDCloud_AX1800Pro'
+          - 'JDCloud_AX6000'
           - 'MI-R3G'
           - 'G-Dock'
           - 'G-Dock-Lite'
