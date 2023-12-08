@@ -27,10 +27,11 @@ on:
       branch_name:
         description: '选择分支'     
         required: true
-        default: 'main'
+        default: 'master'
         type: choice
         options:
         - main
+        - master
         - openwrt-21.02
         - ipq60xx-devel
         - ipq60xx-devel_nss
