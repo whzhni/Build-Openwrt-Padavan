@@ -65,8 +65,8 @@ on:
   #   types: [started]                  # 点击 star 之后
   
 env:
-  REPO_URL: https://github.com/Lu-1991/openwrt
-  REPO_BRANCH: ipq60xx-devel
+  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config/${{ github.event.inputs.model }}.config
   DIY_P1_SH: diy-part1.sh
