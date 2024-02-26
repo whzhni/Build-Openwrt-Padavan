@@ -20,9 +20,6 @@ on:
         type: choice
         options:
           - 'https://github.com/coolsnowwolf/lede.git'
-          - 'https://github.com/hanwckf/immortalwrt-mt798x.git'
-          - 'https://github.com/JiaY-shi/openwrt.git'
-          - 'https://github.com/Lu-1991/openwrt.git'
           - 'https://github.com/padavanonly/immortalwrt.git'
       branch_name:
         description: '选择分支'     
@@ -33,8 +30,6 @@ on:
         - main
         - master
         - openwrt-21.02
-        - ipq60xx-devel
-        - ipq60xx-devel_nss
         - mt798x-devel
       model:
         description: '选择机型'
