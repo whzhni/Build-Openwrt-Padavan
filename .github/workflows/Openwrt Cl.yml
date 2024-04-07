@@ -34,13 +34,13 @@ on:
       model:
         description: '选择机型'
         required: true
-        default: 'JDCloud_RedmiAX5.config' 
+        default: 'JDCloud_RedmiAX5' 
         type: choice
         options:
           - 'JDCloud luban'
           - 'JDCloud_AX1800Pro'
           - 'JDCloud_AX6000'
-          - 'JDCloud_RedmiAX5.config'
+          - 'JDCloud_RedmiAX5'
           - 'MI-R3G'
           - 'G-Dock'
           - 'G-Dock-Lite'
